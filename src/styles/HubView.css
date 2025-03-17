@@ -1,0 +1,55 @@
+.hub-view-container {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    right: 20px;
+    top: 100px;
+    border: 1px solid #718096;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    z-index: 100;
+    transition: transform 0.2s;
+  }
+  
+  .hub-view-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+  
+  .hub-view-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .hub-view-info {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(44, 82, 130, 0.8);
+    color: white;
+    padding: 6px;
+    font-size: 11px;
+    z-index: 2;
+  }
+  
+  .hub-view-info strong {
+    color: #bfdbfe;
+    margin-right: 3px;
+  }
+  
+  .viewer-box {
+    position: absolute;
+    border: 2px solid #e53e3e;
+    background-color: rgba(247, 250, 252, 0.3);
+    box-shadow: 0 0 0 1px rgba(229, 62, 62, 0.5);
+    pointer-events: none;
+    transition: all 0.1s ease;
+  }

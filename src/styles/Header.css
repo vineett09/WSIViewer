@@ -1,0 +1,84 @@
+.right-panel {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e2e8f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    gap: 15px;
+  }
+  
+  .zoom-indicators {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .zoom-level {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 12px;
+    background-color: #edf2f7;
+    color: #4a5568;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .zoom-level.active {
+    background-color: #38b2ac;
+    color: white;
+  }
+  
+  .reset-zoom-button {
+    padding: 8px 16px;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .reset-zoom-button:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  }
+  
+  .reset-zoom-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  }
+  
+  .toggle-detections-button {
+    padding: 8px 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+.toggle-detections-button:hover {
+    background-color: #3a80d2;
+  }
+  
+  .sample-date {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0 auto;
+    padding: 5px 12px;
+    background-color: #f7fafc;
+    border-radius: 5px;
+    border: 1px solid #e2e8f0;
+  }
